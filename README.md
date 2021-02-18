@@ -21,3 +21,4 @@ Made with ❤️ by Xunaxidonita
 ## Screenshot
 
 [![screenshot1.png](https://i.postimg.cc/ncS4Cb68/screenshot1.png)](https://postimg.cc/nC7jP5FT)
+[![screenshot2.png](https://i.postimg.cc/Qd20d9zK/screenshot2.png)](https://postimg.cc/gxKvMJmG)
