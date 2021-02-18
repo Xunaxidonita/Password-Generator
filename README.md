@@ -20,4 +20,4 @@ Made with ❤️ by Xunaxidonita
 
 ## Screenshot
 
-<img width="980" alt="screenshot1" src="https://user-images.githubusercontent.com/49108960/108311147-7302cc00-7169-11eb-8e35-d5260c384b26.png">
+[![screenshot1.png](https://i.postimg.cc/ncS4Cb68/screenshot1.png)](https://postimg.cc/nC7jP5FT)
