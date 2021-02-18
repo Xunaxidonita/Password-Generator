@@ -39,11 +39,16 @@ const SYMBOLS = ["!", "@", "#", "$", "%", "^", "&", "(", ")", "-", "_", "?"];
 
 //Function that checks que length is between 8 and 128 characters.
 var checkRightRange = function () {
+  var alertMessage = "";
   do {
     var rightLength = 0;
-    var possibleLength = prompt("Choose a length between 8 and 128");
+    var possibleLength = prompt(
+      alertMessage + "Choose a length between 8 and 128"
+    );
     rightLength = parseInt(possibleLength);
-  } while (rightLength < 8 || rightLength > 128);
+    // check and store extra message
+    alertMessage = "Not a valid option. ";
+  } while (rightLength < 8 || rightLength > 128 || isNaN(rightLength));
   return rightLength;
 };
 
