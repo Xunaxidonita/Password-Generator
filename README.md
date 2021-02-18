@@ -18,4 +18,4 @@ Made with ❤️ by Xunaxidonita
 
 ## Screenshot
 
-![User Interface](./assets/images/screenshot1.png?raw=true "Screenshot1")
+![User Interface](../images/screenshot1.png?raw=true "Screenshot1")
