@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(140, 140, 140);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: black;
+}
+
+header {
+  background-image: url("../images/password_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%;
+}
+
+header h2 {
+  font-size: 42px;
+  color: black;
+  font-weight: bolder;
+  padding: auto;
+  background-color: rgba (34, 34, 34, 0.8);
+  margin: auto;
+  border-radius: 12px;
+  text-align: center;
+  text-shadow: 2px 2px 1px rgb(232, 252, 196);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 70%;
+}
+
+button {
+  border-radius: 12px;
+  background-color: chartreuse;
+  color: #555555;
+  font-size: 38px;
+  margin: 350px auto 350px auto;
+  padding: 20px;
+  width: 40%;
+  text-shadow: 1px 1px rgb(196, 250, 152);
+}
+
+footer {
+  height: 150px;
+  background-image: url("../images/password_bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  bottom: auto;
+}
+
+footer div {
+  font-size: 28px;
+  color: #bbbbbb;
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  header h2 {
+    font-size: 36px;
+    width: 50%;
+  }
+
+  button {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header h2 {
+    font-size: 30px;
+    text-shadow: 3px 3px 2px 1px chartreuse;
+    width: 55%;
+  }
+
+  button {
+    font-size: 28px;
+    padding: 15px;
+    margin: 250px auto 250px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header {
+    height: 180px;
+  }
+
+  header h2 {
+    font-size: 25px;
+    text-shadow: 3px 3px 2px 1px chartreuse;
+    width: 65%;
+  }
+
+  button {
+    font-size: 24px;
+    padding: 15px;
+    margin: 150px auto 150px auto;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  footer div {
+    font-size: 18px;
+  }
+}
